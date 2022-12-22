@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[hello python]]>
+    </line>
+    <line>
+      <![CDATA[hello java]]>
+    </line>
+    <line>
+      <![CDATA[hello java]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-22T18:43:48 IST" name="Suite" finished-at="2022-12-22T18:43:48 IST" duration-ms="115">
+    <groups>
+    </groups>
+    <test started-at="2022-12-22T18:43:48 IST" name="Test" finished-at="2022-12-22T18:43:48 IST" duration-ms="115">
+      <class name="scrips.test2">
+        <test-method signature="tc1()[pri:0, instance:scrips.test2@4e096385]" started-at="2022-12-22T18:43:48 IST" name="tc1" finished-at="2022-12-22T18:43:48 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello python]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- scrips.test2 -->
+      <class name="scrips.test1">
+        <test-method signature="tc1()[pri:0, instance:scrips.test1@37654521]" started-at="2022-12-22T18:43:48 IST" name="tc1" finished-at="2022-12-22T18:43:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- scrips.test1 -->
+      <class name="scrips.test0">
+        <test-method signature="tc1()[pri:0, instance:scrips.test0@15aab8c6]" started-at="2022-12-22T18:43:48 IST" name="tc1" finished-at="2022-12-22T18:43:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- scrips.test0 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
